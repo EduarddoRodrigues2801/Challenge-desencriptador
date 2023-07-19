@@ -1,0 +1,92 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.logoalura {
+    margin-left: 10px;
+    padding-top: 10;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+main img {
+    background-color: #0A3871;
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+}
+
+textarea {
+    border-radius: 12px;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area:focus {
+    outline: none;
+    img src:;
+}
+
+.mensagem {
+    background: white;
+    background-image: url("./imagens/boneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem :focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    color: #0A3871;
+    gap: 5px;
+    margin-top: 18px;
+}
+
+.botoes>input {
+    border-radius: 6px;
+    color: #0A3871;
+}
+
+/* estilos no botão limpar */
+#limpar {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    color: #0A3871;
+}
+
+#limpar:hover {
+    color: #0A3871;
+    border-color: #4c6a8e;
+    font-weight: 700;
+    transform: scale(1.1);
+}
+
+.Copyright {
+    text-align: center;
+    margin-bottom:0 ;
+    color: #0A3871;
+}
